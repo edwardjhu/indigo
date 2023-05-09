@@ -23,7 +23,7 @@ url: https://edwardjhu.com/
 permalink: /:title/
 
 # To enable google analytics, supply your token below
-# analytics-google: 'UA-MYANALYTICS'
+analytics-google: 'G-M3G3BXV29B'
 
 # To enable piwik tracking, supply your url & site ID below
 # analytics-piwik-url: 'piwik.my-host.com'
@@ -55,7 +55,7 @@ gscholar: 2eADy_8AAAAJ
 #email: myemail@gmail.com
 
 authors:
-  johndoe:
+  edwardjhu:
     name: Edward Hu
     bio: PhD student @ Mila
     external-image: false

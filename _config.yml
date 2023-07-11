@@ -17,7 +17,7 @@ resume: true
 resume-external: false
 resume-url: assets/Edward_CV.pdf
 
-url: https://edwardjhu.com/
+url: https://edwardjhu.com
 # your url: https://USERNAME.github.io
 
 permalink: /:title/

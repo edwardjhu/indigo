@@ -8,7 +8,7 @@ layout: page
 
 <p>Before graduate school, I was a researcher at Microsoft working on the large-scale deployment of GPT-3, principled approaches to large model training, and theories of infinitely wide neural networks. I am the proud creator of <a href="https://github.com/microsoft/LoRA">LoRA</a> and <a href="https://github.com/microsoft/mup">μTransfer</a>.</p>
 
-<p>I spent a year as an <a href="https://www.microsoft.com/en-us/research/academic-program/microsoft-ai-residency-program/">AI resident</a> at Microsoft Research Redmond, where I worked closely with <a href="https://www.microsoft.com/en-us/research/people/gregyang/">Greg Yang</a>. I graduated with a bachelor's degree in Computer Science and Cognitive Science from Johns Hopkins University, where I was advised by <a href="https://www.cs.jhu.edu/~vandurme/">Ben Van Durme</a>.</p>
+<p>I spent a year as an <a href="https://www.microsoft.com/en-us/research/academic-program/microsoft-ai-residency-program/">AI resident</a> at Microsoft Research Redmond, where I worked closely with <a href="https://twitter.com/TheGregYang">Greg Yang</a>, now a cofounder of xAI. I graduated with a bachelor's degree in Computer Science and Cognitive Science from Johns Hopkins University, where I was advised by <a href="https://www.cs.jhu.edu/~vandurme/">Ben Van Durme</a>.</p>
 
 <h2>Some Publications</h2>
 

@@ -4,7 +4,9 @@ layout: page
 ---
 ![Profile Image]({% if site.external-image %}{{ site.picture_hd }}{% else %}{{ site.url }}/{{ site.picture_hd }}{% endif %})
 
-<p>I am a Ph.D. student advised by <a href="https://yoshuabengio.org/">Yoshua Bengio</a>. My research on robust reasoning is supported by a <a href="https://bourses.umontreal.ca/repertoire-des-bourses/detail-dune-bourse/bid/1812/bsl/Bourses-en-intelligence-artificielle-des-%C3%89tudes-sup%C3%A9rieures-et-postdoctorales-ESP-2022-2023/">Université de Montréal Graduate AI Fellowship</a>.</p>
+<p>I am a research scientist at OpenAI.
+
+<p>I am also a Ph.D. candidate advised by <a href="https://yoshuabengio.org/">Yoshua Bengio</a>. My research on robust reasoning is supported by a <a href="https://bourses.umontreal.ca/repertoire-des-bourses/detail-dune-bourse/bid/1812/bsl/Bourses-en-intelligence-artificielle-des-%C3%89tudes-sup%C3%A9rieures-et-postdoctorales-ESP-2022-2023/">Université de Montréal Graduate AI Fellowship</a>.</p>
 
 <p>Before graduate school, I was a researcher at Microsoft working on the large-scale deployment of GPT-3, principled approaches to large model training, and theories of infinitely wide neural networks. I am the proud creator of <a href="https://github.com/microsoft/LoRA">LoRA</a> and <a href="https://github.com/microsoft/mup">μTransfer</a>.</p>
 

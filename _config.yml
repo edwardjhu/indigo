@@ -1,6 +1,6 @@
 # main text of home
 name: Edward Hu
-bio: Deep Learning PhD researcher<br>Yoshua Bengio Lab, Mila<br>Creator of LoRA and μTransfer
+bio: AI Researcher at OpenAI<br>PhD Candidate at Yoshua Bengio Lab, Mila<br>Creator of LoRA and μTransfer
 
 # twitter summary info
 description: Edward Hu is building better artificial intelligence.
@@ -58,7 +58,7 @@ goodreads: edwardjhu
 authors:
   edwardjhu:
     name: Edward Hu
-    bio: PhD student @ Mila
+    bio: Research Scientist @ OpenAI
     external-image: false
     picture: assets/images/profile_422.jpg
     twitter: edwardjhu

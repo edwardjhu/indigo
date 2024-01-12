@@ -8,11 +8,9 @@ layout: page
 
 <p>I am also a Ph.D. candidate advised by <a href="https://yoshuabengio.org/">Yoshua Bengio</a>. My research on robust reasoning is supported by a <a href="https://bourses.umontreal.ca/repertoire-des-bourses/detail-dune-bourse/bid/1812/bsl/Bourses-en-intelligence-artificielle-des-%C3%89tudes-sup%C3%A9rieures-et-postdoctorales-ESP-2022-2023/">Université de Montréal Graduate AI Fellowship</a>.</p>
 
-<p>Before graduate school, I was a researcher at Microsoft, where I invented <a href="https://github.com/microsoft/LoRA">LoRA</a> and <a href="https://github.com/microsoft/mup">μTransfer</a>.</p>
+<p>Before graduate school, I was a researcher at Microsoft, where I invented <a href="https://github.com/microsoft/LoRA">LoRA</a> and <a href="https://github.com/microsoft/mup">μTransfer</a>. I was also an <a href="https://www.microsoft.com/en-us/research/academic-program/microsoft-ai-residency-program/">AI resident</a> at Microsoft Research Redmond, where I worked with <a href="https://twitter.com/TheGregYang">Greg Yang</a>, now a mathematician at xAI.</p>
 
-<p>I was also an <a href="https://www.microsoft.com/en-us/research/academic-program/microsoft-ai-residency-program/">AI resident</a> at Microsoft Research Redmond, where I worked with <a href="https://twitter.com/TheGregYang">Greg Yang</a>, now a mathematician at xAI.</p>
-
-<h2>Some Publications</h2>
+<h2>Selected Publications</h2>
 
 <ul class="publications">
 	GFlowNet-EM for learning compositional latent variable models<br>

@@ -8,9 +8,9 @@ layout: page
 
 <p>I am also a Ph.D. candidate advised by <a href="https://yoshuabengio.org/">Yoshua Bengio</a>. My research on robust reasoning is supported by a <a href="https://bourses.umontreal.ca/repertoire-des-bourses/detail-dune-bourse/bid/1812/bsl/Bourses-en-intelligence-artificielle-des-%C3%89tudes-sup%C3%A9rieures-et-postdoctorales-ESP-2022-2023/">Université de Montréal Graduate AI Fellowship</a>.</p>
 
-<p>Before graduate school, I was a researcher at Microsoft working on the large-scale deployment of GPT-3, principled approaches to large model training, and theories of infinitely wide neural networks. I am the proud creator of <a href="https://github.com/microsoft/LoRA">LoRA</a> and <a href="https://github.com/microsoft/mup">μTransfer</a>.</p>
+<p>Before graduate school, I was a researcher at Microsoft, where I invented <a href="https://github.com/microsoft/LoRA">LoRA</a> and <a href="https://github.com/microsoft/mup">μTransfer</a>.</p>
 
-<p>I spent a year as an <a href="https://www.microsoft.com/en-us/research/academic-program/microsoft-ai-residency-program/">AI resident</a> at Microsoft Research Redmond, where I worked closely with <a href="https://twitter.com/TheGregYang">Greg Yang</a>, now a cofounder of xAI. I graduated with a bachelor's degree in Computer Science and Cognitive Science from Johns Hopkins University, where I was advised by <a href="https://www.cs.jhu.edu/~vandurme/">Ben Van Durme</a>.</p>
+<p>I was also an <a href="https://www.microsoft.com/en-us/research/academic-program/microsoft-ai-residency-program/">AI resident</a> at Microsoft Research Redmond, where I worked with <a href="https://twitter.com/TheGregYang">Greg Yang</a>, now a mathematician at xAI.</p>
 
 <h2>Some Publications</h2>
 
@@ -21,11 +21,11 @@ layout: page
 	<br>
 	μTransfer: Tuning Large Neural Networks via Zero-Shot Hyperparameter Transfer<br>
 	<i>NeurIPS 2021</i><br>
-	[<a href="https://arxiv.org/abs/2203.03466">Paper</a> | <a href="https://www.microsoft.com/en-us/research/blog/%c2%b5transfer-a-technique-for-hyperparameter-tuning-of-enormous-neural-networks/">Blog</a> | <a href="https://github.com/microsoft/mup">Code</a> | <a href="https://www.theregister.com/2022/03/14/microsoft_openai_mutransfer/">TheRegister</a> | <a href="https://www.techradar.com/news/microsoft-openai-may-have-solved-a-fundamental-ai-bottleneck">TechRadar</a> | <a href="https://analyticsindiamag.com/interview-with-the-team-behind-microsofts-%C2%B5transfer/">AIM</a>]<br>
+	[<a href="https://arxiv.org/abs/2203.03466">Paper</a> | <a href="https://www.microsoft.com/en-us/research/blog/%c2%b5transfer-a-technique-for-hyperparameter-tuning-of-enormous-neural-networks/">Blog</a> | <a href="https://github.com/microsoft/mup">Code</a> | <a href="https://www.youtube.com/watch?v=z8-C42mAwBc">Video</a> | <a href="https://www.theregister.com/2022/03/14/microsoft_openai_mutransfer/">TheRegister</a> | <a href="https://www.techradar.com/news/microsoft-openai-may-have-solved-a-fundamental-ai-bottleneck">TechRadar</a> | <a href="https://analyticsindiamag.com/interview-with-the-team-behind-microsofts-%C2%B5transfer/">AIM</a>]<br>
 	<br>
 	LoRA: Low-Rank Adaptation of Large Language Models<br>
 	<i>ICLR 2022</i><br>
-	[<a href="https://arxiv.org/abs/2106.09685">Paper</a> | <a href="https://github.com/microsoft/LoRA">Code</a> | Mentioned in <a href="https://blogs.microsoft.com/ai-for-business/ai-at-scale-technology/#:~:text=We%20also%20developed,or%20downstream%20task.">"The innovation behind AI at Scale"</a>]<br>
+	[<a href="https://arxiv.org/abs/2106.09685">Paper</a> | <a href="https://www.youtube.com/watch?v=DhRoTONcyZE">Video</a> | <a href="https://github.com/microsoft/LoRA">Code</a> | Mentioned in <a href="https://blogs.microsoft.com/ai-for-business/ai-at-scale-technology/#:~:text=We%20also%20developed,or%20downstream%20task.">"The innovation behind AI at Scale"</a>]<br>
 	<br>
 	GFlowNet Foundations<br>
 	<i>JMLR 2023</i><br>

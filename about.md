@@ -4,11 +4,7 @@ layout: page
 ---
 ![Profile Image]({% if site.external-image %}{{ site.picture_hd }}{% else %}{{ site.url }}/{{ site.picture_hd }}{% endif %})
 
-<p>I am a research scientist at OpenAI.
-
-<p>I am also a Ph.D. candidate advised by <a href="https://yoshuabengio.org/">Yoshua Bengio</a>. My research on robust reasoning is supported by a <a href="https://bourses.umontreal.ca/repertoire-des-bourses/detail-dune-bourse/bid/1812/bsl/Bourses-en-intelligence-artificielle-des-%C3%89tudes-sup%C3%A9rieures-et-postdoctorales-ESP-2022-2023/">Université de Montréal Graduate AI Fellowship</a>.</p>
-
-<p>Before graduate school, I was a researcher at Microsoft, where I invented <a href="https://github.com/microsoft/LoRA">LoRA</a> and <a href="https://github.com/microsoft/mup">μTransfer</a>. I was also an <a href="https://www.microsoft.com/en-us/research/academic-program/microsoft-ai-residency-program/">AI resident</a> at Microsoft Research Redmond, where I worked with <a href="https://twitter.com/TheGregYang">Greg Yang</a>, now a mathematician at xAI.</p>
+<p>Edward Hu is a research scientist at OpenAI building more capable language models. He received his research training as a Ph.D. student advised by <a href="https://yoshuabengio.org/">Yoshua Bengio</a>, a recipient of the A.M. Turing Award. Edward's PhD research on robust reasoning was supported by a <a href="https://bourses.umontreal.ca/repertoire-des-bourses/detail-dune-bourse/bid/1812/bsl/Bourses-en-intelligence-artificielle-des-%C3%89tudes-sup%C3%A9rieures-et-postdoctorales-ESP-2022-2023/">Université de Montréal Graduate AI Fellowship</a>. Before graduate school, Edward was a researcher at Microsoft, where he invented <a href="https://github.com/microsoft/LoRA">LoRA</a> and <a href="https://github.com/microsoft/mup">μTransfer</a>. LoRA is now one of the most popular methods for customizing AI models, and μTransfer is underpinning the largest AI models being developed today.</p>
 
 <h2>Selected Publications</h2>
 

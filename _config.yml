@@ -1,9 +1,9 @@
 # main text of home
 name: Edward Hu
-bio: AI Researcher at OpenAI<br>Creator of LoRA and μTransfer
+bio: Researcher at OpenAI | Ph.D. candidate Yoshua Bengio lab <br>Creator of LoRA and μTransfer
 
 # twitter summary info
-description: Edward Hu is building better artificial intelligence.
+description: Edward Hu is building more capable language models at OpenAI.
 
 # if it's an external image, update below for true
 # better with square images
@@ -58,7 +58,7 @@ github: edwardjhu
 authors:
   edwardjhu:
     name: Edward Hu
-    bio: Research Scientist @ OpenAI
+    bio: Research Scientist at OpenAI
     external-image: false
     picture: assets/images/profile_422.jpg
     twitter: edwardjhu

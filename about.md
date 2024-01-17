@@ -9,7 +9,11 @@ layout: page
 <h2>Selected Publications</h2>
 
 <ul class="publications">
-	GFlowNet-EM for learning compositional latent variable models<br>
+	Amortizing intractable inference in large language models<br>
+	<i>ICLR 2024 (oral presentation)</i><br>
+	[<a href="https://arxiv.org/abs/2310.04363">Paper</a> | <a href="https://github.com/GFNOrg/gfn-lm-tuning">Code</a>]<br>
+	<br>
+	GFlowNet-EM for Learning Compositional Latent Variable Models<br>
 	<i>ICML 2023</i><br>
 	[<a href="https://arxiv.org/pdf/2302.06576.pdf">Paper</a> | <a href="https://github.com/GFNOrg/GFlowNet-EM">Code</a>]<br>
 	<br>
@@ -36,10 +40,6 @@ layout: page
 	Randomized smoothing of all shapes and sizes<br>
 	<i>ICML 2020</i><br>
 	[<a href="https://arxiv.org/abs/2002.08118">Paper</a> | <a href="https://github.com/tonyduan/rs4a">Code</a>]<br>
-	<br>
-	Improved Lexically Constrained Decoding for Translation and Monolingual Rewriting<br>
-	<i>NAACL 2019</i><br>
-	[<a href="https://aclanthology.org/N19-1090.pdf">Paper</a> | <a href="https://nlp.jhu.edu/parabank/">Dataset</a>]<br>
 </ul>
 <br>
 <br>

@@ -13,6 +13,8 @@ author: Edward J. Hu, Greg Yang and Jianfeng Gao
 description: How to find the optimal hyperparameters of an enormous neural network by tuning a much smaller model instead using math.
 ---
 
+(Co-written with Greg Yang and Jianfeng Gao. Also published on the [MSR blog](https://www.microsoft.com/en-us/research/blog/%c2%b5transfer-a-technique-for-hyperparameter-tuning-of-enormous-neural-networks/).)
+
 ![An animated line-plot showing the stability of optimal learning rate as we change the neural network’s parametrization. The parametrization is varied by interpolating between mup-Parametrization and PyTorch default in terms of the scaling for the learning rate and the initialization scale. The animation shows that mup-Parametrization is the only parametrization that preserves the optimality of learning rate across model widths; it also achieves the best absolute performance across all parametrizations.](https://www.microsoft.com/en-us/research/uploads/prod/2022/03/1400x788_Hyperparameters_no_logo_hero.gif)
 
 Great scientific achievements cannot be made by trial and error alone. Every launch in the space program is underpinned by centuries of fundamental research in aerodynamics, propulsion, and celestial bodies. In the same way, when it comes to building large-scale AI systems, fundamental research forms the theoretical insights that drastically reduce the amount of trial and error necessary and can prove very cost-effective. 

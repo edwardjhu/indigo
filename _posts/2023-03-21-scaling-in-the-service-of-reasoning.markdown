@@ -5,8 +5,8 @@ date: 2023-03-21 00:00
 image: https://lh5.googleusercontent.com/mTfAOEalHGx8pwYYzjEOyN2qJLnIXJ3QpqFx8eh1hhXvaRXIR6KYiCELQFWt-Ny1JWOZv40pVjOyL9dog9DQJfAlMwpzQcTDUi_whuDJwsO-AaZG_ad8UPsIZ4at7JgVsUk2DQTreJTWlfG9zRNcfwQ
 headerImage: false
 tag:
-- markdown
-- elements
+- reasoning
+- GFlowNet
 star: true
 category: blog
 author: Edward J. Hu and Yoshua Bengio
@@ -25,11 +25,11 @@ In our opinion, further scaling is unlikely to resolve these reliability issues.
 
 This blog post describes long-term research directions that leverage _both_ inductive biases and scaling. We will highlight what is, in our opinion, the source of the problem with the current state-of-the-art and delineate potential solutions. First, we need to discuss: what is reasoning?
 
-**Reasoning = Knowledge + Inference**
+## Reasoning = Knowledge + Inference
 
 Reasoning, or thinking, is the process of asking and answering questions using a source of knowledge.
 
-_Human reasoning_ involves generating a small number of intermediate steps, i.e., thoughts, each of which combines very few pieces of knowledge in a coherent way \[[Baar, 1988](https://www.sscnet.ucla.edu/comm/steen/cogweb/Abstracts/Baars_88.html)\]. The broad technical term in probabilistic machine learning for “answering questions” is inference. Formally, we take inference to mean finding modes of the conditional distribution P(solution | query, knowledge). A “solution” or answer to the question here can take the form of an arbitrary compositional object. It can include both the explicit answer to the query and hypothesized explanations about the link between query and answer. Natural language sequences are usually a reflection of such compositional objects, like semantic parse trees, that are in our minds when an answer pops up, and are part of the explanation for the sentence, helping us to answer a question about it. As argued below, to reason well, we need to have 1) _a good model of the world_ and 2) _a powerful inference machine_ to generate solutions compatible with the world model.
+_Human reasoning_ involves generating a small number of intermediate steps, i.e., thoughts, each of which combines very few pieces of knowledge in a coherent way \[[Baar, 1988](https://www.sscnet.ucla.edu/comm/steen/cogweb/Abstracts/Baars_88.html)\]. The broad technical term in probabilistic machine learning for “answering questions” is inference. Formally, we take inference to mean finding modes of the conditional distribution P(solution \| query, knowledge). A “solution” or answer to the question here can take the form of an arbitrary compositional object. It can include both the explicit answer to the query and hypothesized explanations about the link between query and answer. Natural language sequences are usually a reflection of such compositional objects, like semantic parse trees, that are in our minds when an answer pops up, and are part of the explanation for the sentence, helping us to answer a question about it. As argued below, to reason well, we need to have 1) _a good model of the world_ and 2) _a powerful inference machine_ to generate solutions compatible with the world model.
 
 This is where different end goals and computational vs statistical trade-offs appear.
 
@@ -43,7 +43,7 @@ _When it comes to robust reasoning, an Achilles’ heel of current large languag
 
 The rest of the blog post delineates what an ideal world model and an ideal inference machine may look like. We start with the properties of an ideal world model.
 
-**The ideal world model**
+## The ideal world model
 
 Humans’ mental model of the world allows us to quickly generalize to new situations using very little new data, such as driving on the opposite side of the road due to a modified traffic law or solving novel coding puzzles.
 
@@ -53,7 +53,7 @@ In addition to modularity, the notion of uncertainty is crucial. With finite dat
 
 Finally, the world model should take advantage of the out-of-distribution generalization power afforded by modeling causal relationships. Causality plays an important role in human reasoning. For example, we know that gravity causes things to fall and rain causes roads to be wet – but not the other way around, because making the ground wet does not make rain happen. A causal model can be understood as an exponentially large family of distributions indexed by a choice of intervention, where an intervention sets or changes some variables. In the case of human reasoning, it is often the action of an agent. Such causal knowledge helps us to generalize to an unseen distribution corresponding to an unseen intervention. It also helps us decide how to intervene in the world to achieve our desired goals as well as reason counterfactually by answering “what could have happened had I done it differently,” a likely tool for abstract credit assignments that can be effective for learning long-term causal dependencies \[[Kemp et al., 2015](https://psycnet.apa.org/doiLanding?doi=10.1037%2Fa0039655)\].
 
-**Model-Based Machine Learning with Large Deep Nets as Amortized Inference Machines**
+## Model-Based Machine Learning with Large Deep Nets as Amortized Inference Machines
 
 To think is to search for ideas or solutions.
 
@@ -65,7 +65,7 @@ In addition, there is often more than one solution to a query. The inference mac
 
 Finally, the inference machine must efficiently explore the large solution space. To represent the combinatorially many candidates in the solution space, the inference machine can generate a solution through a sequence of stochastic steps, each chosen from a much smaller action space. For example, we can build molecules by repeatedly picking a location and adding one atom at a time. Each action is taken from a limited set but their composition through several steps makes it possible to represent an arbitrarily rich distribution over molecules. When trained on diverse queries and solutions, the inference machine can “mix and match” steps it has seen and make educated guesses to reach previously unseen solutions, e.g., by recombining functional groups to form new organic molecules. _This form of generalization by exploiting the underlying regularities in the solution space is at the heart of the success of modern deep learning._
 
-**Beyond Scaling**
+## Beyond Scaling
 
 [According to Daniel Kahneman](https://www.scientificamerican.com/article/kahneman-excerpt-thinking-fast-and-slow/), our brain consists of System 1, characterized by fast and associative thinking, and System 2, characterized by slow and deliberate thinking. Many liken deep-learning-based language models to System 1 and postulate that a future System 2 architecture will handle robust reasoning \[[Goyal & Bengio 2022](https://royalsocietypublishing.org/doi/pdf/10.1098/rspa.2021.0068)\]. However, _a standalone System 2 neural network might not be practical_, for the same reason that classical symbolic AI failed – it needs to also have a powerful inference machine, for both fast inference to answer a new question on-the-fly as well as to train the world model itself and infer explanations for observed data. Indeed, our brain is full of locally dense neural networks, à la System 1, and System 2 might simply organize the computation and training of the former to achieve consistency between a powerful, amortized inference machine and an implicitly represented but compact and modular world model.
 

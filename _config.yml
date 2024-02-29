@@ -1,6 +1,6 @@
 # main text of home
 name: Edward Hu
-bio: Research Scientist at OpenAI<br>Inventor of LoRA and μTransfer
+bio: Researcher at OpenAI
 
 # twitter summary info
 description: Edward Hu is building more capable language models at OpenAI.
@@ -58,7 +58,7 @@ github: edwardjhu
 authors:
   edwardjhu:
     name: Edward Hu
-    bio: Research Scientist at OpenAI
+    bio: Researcher at OpenAI
     external-image: false
     picture: assets/images/profile_422.jpg
     twitter: edwardjhu

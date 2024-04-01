@@ -4,7 +4,7 @@ layout: page
 ---
 ![Profile Image]({% if site.external-image %}{{ site.picture_hd }}{% else %}{{ site.url }}/{{ site.picture_hd }}{% endif %})
 
-<p>Edward Hu is a research scientist at OpenAI building more capable language models. He received his research training as a Ph.D. student advised by <a href="https://yoshuabengio.org/">Yoshua Bengio</a>, a recipient of the 2018 A.M. Turing Award.</p>
+<p>Edward Hu is building his own company and his doctroal thesis. He was previously a research scientist at OpenAI building more capable language models. He received his research training as a Ph.D. student advised by <a href="https://yoshuabengio.org/">Yoshua Bengio</a>, a recipient of the 2018 A.M. Turing Award.</p>
 
 <p>Before graduate school, Edward was a researcher at Microsoft, where he invented <a href="https://github.com/microsoft/LoRA">LoRA</a> and <a href="https://github.com/microsoft/mup">μTransfer</a>. LoRA is now one of the most popular methods for customizing AI models, and μTransfer is underpinning the largest AI models being developed today.</p>
 

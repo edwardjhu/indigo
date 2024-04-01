@@ -1,9 +1,9 @@
 # main text of home
 name: Edward Hu
-bio: Researcher at OpenAI
+bio: Building something new\\ Previously researcher at OpenAI\\ PhD student advised by Yoshua Bengio
 
 # twitter summary info
-description: Edward Hu is building more capable language models at OpenAI.
+description: Edward Hu is working on a new company.
 
 # if it's an external image, update below for true
 # better with square images
@@ -58,7 +58,7 @@ github: edwardjhu
 authors:
   edwardjhu:
     name: Edward Hu
-    bio: Researcher at OpenAI
+    bio: Building something new\\ Previously researcher at OpenAI\\ PhD student advised by Yoshua Bengio
     external-image: false
     picture: assets/images/profile_422.jpg
     twitter: edwardjhu

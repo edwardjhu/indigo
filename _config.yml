@@ -1,6 +1,6 @@
 # main text of home
 name: Edward Hu
-bio: Building something new\\ Previously researcher at OpenAI\\ PhD student advised by Yoshua Bengio
+bio: Building something new<br>Previously researcher at OpenAI<br>PhD student advised by Yoshua Bengio
 
 # twitter summary info
 description: Edward Hu is working on a new company.
@@ -58,7 +58,7 @@ github: edwardjhu
 authors:
   edwardjhu:
     name: Edward Hu
-    bio: Building something new\\ Previously researcher at OpenAI\\ PhD student advised by Yoshua Bengio
+    bio: Building something new<br>Previously researcher at OpenAI<br>PhD student advised by Yoshua Bengio
     external-image: false
     picture: assets/images/profile_422.jpg
     twitter: edwardjhu

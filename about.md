@@ -12,12 +12,8 @@ layout: page
 
 <ul class="publications">
 	Amortizing Intractable Inference in Large Language Models<br>
-	<i>ICLR 2024 (oral presentation)</i><br>
+	<i>ICLR 2024 (oral presentation, Outstanding Paper Honorable Mention)</i><br>
 	[<a href="https://arxiv.org/abs/2310.04363">Paper</a> | <a href="https://github.com/GFNOrg/gfn-lm-tuning">Code</a>]<br>
-	<br>
-	GFlowNet-EM for Learning Compositional Latent Variable Models<br>
-	<i>ICML 2023</i><br>
-	[<a href="https://arxiv.org/pdf/2302.06576.pdf">Paper</a> | <a href="https://github.com/GFNOrg/GFlowNet-EM">Code</a>]<br>
 	<br>
 	μTransfer: Tuning Large Neural Networks via Zero-Shot Hyperparameter Transfer<br>
 	<i>NeurIPS 2021</i><br>
@@ -38,11 +34,5 @@ layout: page
 	Improved Image Wasserstein Attacks and Defenses<br>
 	<i>Best Paper at ICLR Trustworthy ML Workshop 2020</i><br>
 	[<a href="https://arxiv.org/abs/2004.12478">Paper</a> | <a href="https://github.com/edwardjhu/improved_wasserstein">Code</a>]<br>
-	<br>
-	Randomized smoothing of all shapes and sizes<br>
-	<i>ICML 2020</i><br>
-	[<a href="https://arxiv.org/abs/2002.08118">Paper</a> | <a href="https://github.com/tonyduan/rs4a">Code</a>]<br>
 </ul>
 <br>
-<br>
-This website is based on <a class="link" href="https://github.com/sergiokopplin/indigo">Indigo by Kopplin</a>.

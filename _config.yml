@@ -1,6 +1,6 @@
 # main text of home
 name: Edward Hu
-bio: Incubating companies<br>Previously @OpenAI; Ph.D. w/ Yoshua Bengio<br>Inventor of LoRA and μP (muP)
+bio: Incubating companies; Previously @ OpenAI<br>Ph.D. w/ Yoshua Bengio<br>Inventor of LoRA and μP (muP)
 
 # twitter summary info
 description: Edward Hu is incubating new companies.
@@ -58,7 +58,7 @@ github: edwardjhu
 authors:
   edwardjhu:
     name: Edward Hu
-    bio: Incubating companies<br>Previously @OpenAI; Ph.D. w/ Yoshua Bengio<br>Inventor of LoRA and μP (muP)
+    bio: Incubating companies; Previously @ OpenAI<br>Ph.D. w/ Yoshua Bengio<br>Inventor of LoRA and μP (muP)
     external-image: false
     picture: assets/images/profile_422.jpg
     twitter: edwardjhu

@@ -1,9 +1,9 @@
 # main text of home
 name: Edward Hu
-bio: Building something new<br>Previously @OpenAI<br>Inventor of LoRA and μTransfer
+bio: Incubating companies<br>Previously @OpenAI; Ph.D. w/ Yoshua Bengio<br>Inventor of LoRA and μP (muP)
 
 # twitter summary info
-description: Edward Hu is working on a new company.
+description: Edward Hu is incubating new companies.
 
 # if it's an external image, update below for true
 # better with square images
@@ -41,7 +41,7 @@ twitter: edwardjhu
 # pinterest: mypinterest
 linkedin: edwardjhu
 gscholar: 2eADy_8AAAAJ
-#youtube: edwardjhu
+youtube: edwardjhu
 # spotify: myspotify
 github: edwardjhu
 # goodreads: edwardjhu
@@ -58,7 +58,7 @@ github: edwardjhu
 authors:
   edwardjhu:
     name: Edward Hu
-    bio: Building something new<br>Previously @OpenAI<br>Inventor of LoRA and μTransfer
+    bio: Incubating companies<br>Previously @OpenAI; Ph.D. w/ Yoshua Bengio<br>Inventor of LoRA and μP (muP)
     external-image: false
     picture: assets/images/profile_422.jpg
     twitter: edwardjhu

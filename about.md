@@ -4,9 +4,9 @@ layout: page
 ---
 ![Profile Image]({% if site.external-image %}{{ site.picture_hd }}{% else %}{{ site.url }}/{{ site.picture_hd }}{% endif %})
 
-<p>Edward Hu is a founding partner in a stealth AI company in Woodside, CA. He was a researcher at OpenAI and received his research training as a Ph.D. student advised by <a href="https://yoshuabengio.org/">Yoshua Bengio</a>, a recipient of the 2018 A.M. Turing Award.</p>
+<p>Edward Hu is incubating companies in Woodside, CA with <a href="https://www.drw.com/updates/insights/about-don-wilson">Donald R. Wilson</a> and <a href="https://www.linkedin.com/in/suna-said-66985918">Suna Said</a>. He was a researcher at OpenAI and received his Ph.D. in Computer Science under the supervision of <a href="https://yoshuabengio.org/">Yoshua Bengio</a>, a recipient of the 2018 A.M. Turing Award.</p>
 
-<p>Before graduate school, Edward was a researcher at Microsoft, where he invented <a href="https://github.com/microsoft/LoRA">LoRA</a> and <a href="https://github.com/microsoft/mup">μTransfer</a>. LoRA is now one of the most popular methods for customizing AI models, and μTransfer is underpinning the largest AI models being developed today.</p>
+<p>Before graduate school, Edward was a researcher at Microsoft, where he invented <a href="https://github.com/microsoft/LoRA">LoRA</a>, <a href="https://github.com/microsoft/mup">μP (muP)</a>, and <a href="https://www.microsoft.com/en-us/research/blog/%C2%B5transfer-a-technique-for-hyperparameter-tuning-of-enormous-neural-networks/">μTransfer</a>. LoRA is now the industry standard for customizing AI models, and μTransfer is underpinning the largest AI model training runs today.</p>
 
 <h2>Selected Publications</h2>
 

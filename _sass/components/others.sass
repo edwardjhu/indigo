@@ -59,3 +59,35 @@
 
 .lost-container
     text-align: center
+
+.fn
+    position: relative
+    display: inline-flex
+    align-items: center
+    justify-content: center
+    font-size: 0.7em
+    vertical-align: super
+    cursor: default
+    color: $gama
+
+    .fn-text
+        visibility: hidden
+        opacity: 0
+        position: absolute
+        bottom: calc(100% + 6px)
+        left: 50%
+        transform: translateX(-50%)
+        background: $beta
+        color: #eee
+        font-size: 1.3rem
+        font-weight: normal
+        line-height: 1.4
+        padding: 8px 12px
+        border-radius: 6px
+        width: 320px
+        z-index: 10
+        pointer-events: none
+
+    &:hover .fn-text
+        visibility: visible
+        opacity: 1

@@ -13,7 +13,7 @@ layout: page
   onmouseout="this.src=this.dataset.default"
 />
 
-<p>Edward Hu is incubating companies in Woodside, CA with <a href="https://www.drw.com/updates/insights/about-don-wilson">Don R. Wilson</a> and <a href="https://www.linkedin.com/in/suna-said-66985918">Suna Said</a>. He was a researcher at OpenAI, where he worked on o1, and received his Ph.D. in Computer Science under the supervision of <a href="https://yoshuabengio.org/">Yoshua Bengio</a>, a recipient of the 2018 A.M. Turing Award. His Ph.D. thesis is on "Building a Reasoning Machine."</p>
+<p>Edward Hu is leading AI model training & research at Mercor. Previously, he incubated companies in Woodside, CA with <a href="https://www.drw.com/updates/insights/about-don-wilson">Don R. Wilson</a> and <a href="https://www.linkedin.com/in/suna-said-66985918">Suna Said</a>. He was also a researcher at OpenAI, where he worked on o1, and received his Ph.D. in Computer Science under the supervision of <a href="https://yoshuabengio.org/">Yoshua Bengio</a>, a recipient of the 2018 A.M. Turing Award. His Ph.D. thesis is on "Building a Reasoning Machine."</p>
 
 <p>Before graduate school, Edward was a researcher at Microsoft, where he invented <a href="https://github.com/microsoft/LoRA">LoRA</a>, <a href="https://github.com/microsoft/mup">μP (muP)</a>, and <a href="https://www.microsoft.com/en-us/research/blog/%C2%B5transfer-a-technique-for-hyperparameter-tuning-of-enormous-neural-networks/">μTransfer</a>. LoRA is now the industry standard for customizing AI models, and μTransfer is underpinning the largest AI model training runs today.</p>
 

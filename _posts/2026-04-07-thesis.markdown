@@ -60,5 +60,5 @@ These two complementary perspectives are the common threads behind the four arti
 
 **Acknowledgements**
 
-I'd like to thank [Yoshua Bengio](https://yoshuabengio.org/), [Aaron Courville](https://aaroncourville.wordpress.com/), [Jason Eisner](https://www.cs.jhu.edu/~jason/), and [Dhanya Sridhar](https://www.dhanyasridhar.com/) for being on my thesis committee!
+I'd like to thank [Yoshua Bengio](https://yoshuabengio.org/), [Aaron Courville](https://aaroncourville.wordpress.com/), [Jason Eisner](https://www.cs.jhu.edu/~jason/), and [Dhanya Sridhar](https://www.dsridhar.com/) for being on my thesis committee!
 
